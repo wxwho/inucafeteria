@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/main/res"/><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/build/generated/res/rs/debug"/><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/main/res"><file path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="ImageCoverFlowView">
+        <attr format="integer" name="visibleImage"/>
+        <attr format="fraction" name="reflectionHeight"/>
+        <attr format="dimension" name="reflectionGap"/>
+        <attr format="boolean" name="reflectionShaderEnable"/>
+        <attr format="boolean" name="topImageClickEnable"/>
+        <attr format="enum" name="coverflowGravity">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="center_vertical" value="2"/>
+        </attr>
+        <attr format="enum" name="coverflowLayoutMode">
+            <enum name="match_parent" value="0"/>
+            <enum name="wrap_content" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">ImgCoverflowLib</string></file></source><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/build/generated/res/rs/debug"/><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/Users/ksj/Desktop/INUCafeteria/1.1.9/Cafeteria-master/imgcoverflowlib/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ImageCoverFlowView"><attr format="integer" name="visibleImage"/><attr format="fraction" name="reflectionHeight"/><attr format="dimension" name="reflectionGap"/><attr format="boolean" name="reflectionShaderEnable"/><attr format="boolean" name="topImageClickEnable"/><attr format="enum" name="coverflowGravity">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="center_vertical" value="2"/>
+        </attr><attr format="enum" name="coverflowLayoutMode">
+            <enum name="match_parent" value="0"/>
+            <enum name="wrap_content" value="1"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>

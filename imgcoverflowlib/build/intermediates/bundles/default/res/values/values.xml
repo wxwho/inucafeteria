@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageCoverFlowView"><attr format="integer" name="visibleImage"/><attr format="fraction" name="reflectionHeight"/><attr format="dimension" name="reflectionGap"/><attr format="boolean" name="reflectionShaderEnable"/><attr format="boolean" name="topImageClickEnable"/><attr format="enum" name="coverflowGravity">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="center_vertical" value="2"/>
+        </attr><attr format="enum" name="coverflowLayoutMode">
+            <enum name="match_parent" value="0"/>
+            <enum name="wrap_content" value="1"/>
+        </attr></declare-styleable>
+    <string name="app_name">ImgCoverflowLib</string>
+</resources>

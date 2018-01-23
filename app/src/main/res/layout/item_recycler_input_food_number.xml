@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <EditText
+        android:id="@+id/irifn_edit_input_food_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/awfn_edittext"
+        android:textSize="24sp"
+        android:textColor="#6296ae"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="@string/input_food"
+        />
+</LinearLayout>

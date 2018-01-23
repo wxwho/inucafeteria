@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inu.cafeteria">
+
+    <!-- 서버통신사용허가 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 진동기능사용허가 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 화면깨우기 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".Application.ApplicationController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Firebase.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Firebase.FirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activity.LoginActivity" />
+        <activity
+            android:name=".Activity.InputFoodNumberActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activity.WaitingFoodNumberActivity" />
+        <activity
+            android:name=".Utility.CustomVibePopup"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Activity.InfomationActivity" />
+        <activity android:name=".Activity.InquireActivity"/>
+    </application>
+
+</manifest>

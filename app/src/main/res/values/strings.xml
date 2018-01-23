@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">INU Cafeteria</string>
+    <string name="input_food"><font size="15">대기번호를 입력해주세요.</font></string>
+    <string name="drawer_open" />
+    <string name="drawer_close" />
+    <string name="title_activity_input_food_num">InputFoodNum</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nouser_login"><span style="color:#FFFFFF"><u>비회원 로그인</u></span></string>
+
+
+</resources>
